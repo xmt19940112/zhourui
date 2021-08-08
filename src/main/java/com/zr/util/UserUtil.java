@@ -16,6 +16,7 @@ public class UserUtil {
         users=new Users(config.getSynFromCorn());
         System.out.println(users.getUsername());
     }
+    
 
     public static String getName(){
         return users.getUsername();
