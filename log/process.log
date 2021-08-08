@@ -1,0 +1,115 @@
+2021-08-05 10:32:26.573  INFO 26099 --- [main] com.zr.ZhouruiApp                        : Starting ZhouruiApp on localhost with PID 26099 (/Volumes/backup1/ideawebapps/zhourui/target/classes started by zhourui in /Volumes/backup1/ideawebapps/zhourui)
+2021-08-05 10:32:26.578  INFO 26099 --- [main] com.zr.ZhouruiApp                        : No active profile set, falling back to default profiles: default
+2021-08-05 10:32:27.362  INFO 26099 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-05 10:32:27.365  INFO 26099 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-05 10:32:27.392  INFO 26099 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2021-08-05 10:32:27.644  INFO 26099 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bf5ea8d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-05 10:32:28.046  INFO 26099 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-08-05 10:32:28.078  INFO 26099 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-05 10:32:28.078  INFO 26099 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2021-08-05 10:32:28.087  INFO 26099 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhourui/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-08-05 10:32:28.175  INFO 26099 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-05 10:32:28.175 DEBUG 26099 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2021-08-05 10:32:28.175  INFO 26099 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1555 ms
+2021-08-05 10:32:29.125 DEBUG 26099 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2021-08-05 10:32:29.179  INFO 26099 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-08-05 10:32:29.216 DEBUG 26099 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2021-08-05 10:32:29.342  INFO 26099 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-05 10:32:29.397 DEBUG 26099 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-08-05 10:32:29.423 DEBUG 26099 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-08-05 10:32:29.431 DEBUG 26099 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-08-05 10:32:29.731  INFO 26099 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-08-05 10:32:29.745  INFO 26099 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-08-05 10:32:29.772  INFO 26099 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-08-05 10:32:29.890  INFO 26099 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingGET_1
+2021-08-05 10:32:29.891  INFO 26099 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingHEAD_1
+2021-08-05 10:32:29.892  INFO 26099 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingPOST_1
+2021-08-05 10:32:29.892  INFO 26099 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingPUT_1
+2021-08-05 10:32:29.893  INFO 26099 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingPATCH_1
+2021-08-05 10:32:29.894  INFO 26099 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingDELETE_1
+2021-08-05 10:32:29.894  INFO 26099 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingOPTIONS_1
+2021-08-05 10:32:29.895  INFO 26099 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingTRACE_1
+2021-08-05 10:32:29.896  WARN 26099 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2021-08-05 10:32:29.898  WARN 26099 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2021-08-05 10:32:29.898  WARN 26099 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2021-08-05 10:32:29.899  WARN 26099 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2021-08-05 10:32:29.900  WARN 26099 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2021-08-05 10:32:29.901  WARN 26099 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2021-08-05 10:32:29.902  WARN 26099 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2021-08-05 10:32:29.903  WARN 26099 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2021-08-05 10:32:29.920  INFO 26099 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-08-05 10:32:29.988  INFO 26099 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-08-05 10:32:29.999  INFO 26099 --- [main] com.zr.ZhouruiApp                        : Started ZhouruiApp in 3.723 seconds (JVM running for 4.203)
+2021-08-05 10:32:42.113  INFO 26099 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-05 10:32:42.114  INFO 26099 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-05 10:32:42.114 DEBUG 26099 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-08-05 10:32:42.122 DEBUG 26099 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-08-05 10:32:42.122  INFO 26099 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2021-08-05 10:32:42.132 DEBUG 26099 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/getName", parameters={}
+2021-08-05 10:32:42.136 DEBUG 26099 --- [http-nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.zr.controller.HelloController.getName()
+2021-08-05 10:32:42.158 DEBUG 26099 --- [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2021-08-05 10:32:42.159 DEBUG 26099 --- [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["0 22/10 * * * ?"]
+2021-08-05 10:32:42.166 DEBUG 26099 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-08-05 10:33:03.516  INFO 26099 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-05 10:33:07.893  INFO 26109 --- [main] com.zr.ZhouruiApp                        : Starting ZhouruiApp on localhost with PID 26109 (/Volumes/backup1/ideawebapps/zhourui/target/classes started by zhourui in /Volumes/backup1/ideawebapps/zhourui)
+2021-08-05 10:33:07.895  INFO 26109 --- [main] com.zr.ZhouruiApp                        : No active profile set, falling back to default profiles: default
+2021-08-05 10:33:08.576  INFO 26109 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-05 10:33:08.578  INFO 26109 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-05 10:33:08.600  INFO 26109 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2021-08-05 10:33:08.859  INFO 26109 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$37cc5894] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-05 10:33:09.079  INFO 26109 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-08-05 10:33:09.097  INFO 26109 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-05 10:33:09.097  INFO 26109 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2021-08-05 10:33:09.102  INFO 26109 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/zhourui/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-08-05 10:33:09.168  INFO 26109 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-05 10:33:09.168 DEBUG 26109 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2021-08-05 10:33:09.168  INFO 26109 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1238 ms
+2021-08-05 10:33:09.740 DEBUG 26109 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2021-08-05 10:33:09.785  INFO 26109 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-08-05 10:33:09.819 DEBUG 26109 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2021-08-05 10:33:09.893  INFO 26109 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-05 10:33:09.930 DEBUG 26109 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-08-05 10:33:09.951 DEBUG 26109 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-08-05 10:33:09.961 DEBUG 26109 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-08-05 10:33:10.157  INFO 26109 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-08-05 10:33:10.169  INFO 26109 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-08-05 10:33:10.209  INFO 26109 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-08-05 10:33:10.312  INFO 26109 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingGET_1
+2021-08-05 10:33:10.313  INFO 26109 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingHEAD_1
+2021-08-05 10:33:10.314  INFO 26109 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingPOST_1
+2021-08-05 10:33:10.315  INFO 26109 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingPUT_1
+2021-08-05 10:33:10.315  INFO 26109 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingPATCH_1
+2021-08-05 10:33:10.316  INFO 26109 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingDELETE_1
+2021-08-05 10:33:10.316  INFO 26109 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingOPTIONS_1
+2021-08-05 10:33:10.317  INFO 26109 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: sayHelloUsingTRACE_1
+2021-08-05 10:33:10.318  WARN 26109 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2021-08-05 10:33:10.320  WARN 26109 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2021-08-05 10:33:10.321  WARN 26109 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2021-08-05 10:33:10.322  WARN 26109 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2021-08-05 10:33:10.323  WARN 26109 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2021-08-05 10:33:10.324  WARN 26109 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2021-08-05 10:33:10.325  WARN 26109 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2021-08-05 10:33:10.325  WARN 26109 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType org.springframework.ui.ModelMap
+2021-08-05 10:33:10.342  INFO 26109 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-08-05 10:33:10.375  INFO 26109 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-08-05 10:33:10.378  INFO 26109 --- [main] com.zr.ZhouruiApp                        : Started ZhouruiApp in 2.8 seconds (JVM running for 3.307)
+2021-08-05 10:33:24.214  INFO 26109 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-05 10:33:24.215  INFO 26109 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-05 10:33:24.215 DEBUG 26109 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-08-05 10:33:24.221 DEBUG 26109 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-08-05 10:33:24.221  INFO 26109 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2021-08-05 10:33:24.230 DEBUG 26109 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/getName", parameters={}
+2021-08-05 10:33:24.236 DEBUG 26109 --- [http-nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.zr.controller.HelloController.getName()
+2021-08-05 10:33:24.252 DEBUG 26109 --- [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2021-08-05 10:33:24.253 DEBUG 26109 --- [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["0 22/10 * * * ?"]
+2021-08-05 10:33:24.261 DEBUG 26109 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-08-05 10:42:00.048  INFO 26109 --- [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-05 10:42:00.199  INFO 26109 --- [pool-1-thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-05 11:04:31.951  WARN 26109 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m1s574ms).
+2021-08-05 11:08:22.644  WARN 26109 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m20s685ms).
+2021-08-05 11:24:34.456  WARN 26109 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m11s801ms).
+2021-08-05 11:54:42.225  WARN 26109 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m7s768ms).
+2021-08-05 12:37:25.648  WARN 26109 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=42m43s423ms).
+2021-08-05 12:59:25.508  INFO 26109 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-05 12:59:25.531  INFO 26109 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-05 12:59:25.535  INFO 26109 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
